@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bio/workspace/xeno_test/src/main.cpp
+stdio.h
+-
+signal.h
+-
+unistd.h
+-
+native/task.h
+-
+native/timer.h
+-
+rtdk.h
+-
+iostream
+-
+rtdk.h
+-
+alchemy/task.h
+-
+
